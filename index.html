@@ -3,15 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Your Name | Portfolio</title>
-<link rel="stylesheet" href="css/style.css" />
-
+  <title>Your Name | Professional Portfolio</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <!-- Google Fonts: Montserrat for a clean, modern feel -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
     <nav>
-      <h1>Your Name</h1>
-      <ul>
+      <div class="logo">Your Name</div>
+      <ul class="nav-links">
         <li><a href="#home">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#projects">Projects</a></li>
@@ -21,33 +24,38 @@
   </header>
 
   <section id="home" class="hero">
-    <h2>Hello, I'm Your Name</h2>
-    <p>Web Developer | Designer | Creative Thinker</p>
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1>Welcome, I'm Your Name</h1>
+        <p>I create innovative web solutions and beautiful designs.</p>
+        <a href="#projects" class="cta-btn">View My Work</a>
+      </div>
+    </div>
   </section>
 
-  <section id="about">
+  <section id="about" class="info-section">
     <h2>About Me</h2>
-    <p>Brief introduction about you, your passion, and what you do best.</p>
+    <p>I'm a web developer and designer passionate about creating intuitive, dynamic, and visually appealing digital experiences.</p>
   </section>
 
-  <section id="projects">
+  <section id="projects" class="info-section">
     <h2>Projects</h2>
     <div class="project-grid">
       <div class="project-card">
         <h3>Project One</h3>
-        <p>Short description of your project.</p>
+        <p>A brief description of your project goes here. Highlight its features and benefits.</p>
       </div>
       <div class="project-card">
         <h3>Project Two</h3>
-        <p>Another project you want to showcase.</p>
+        <p>A brief description of your project goes here. Highlight its features and benefits.</p>
       </div>
-      <!-- Add more projects as needed -->
+      <!-- Additional project cards can be added similarly -->
     </div>
   </section>
 
-  <section id="contact">
+  <section id="contact" class="info-section">
     <h2>Contact</h2>
-    <p>Reach me at: <a href="mailto:your@email.com">your@email.com</a></p>
+    <p>Let's work together. Email me at <a href="mailto:your@email.com">your@email.com</a></p>
   </section>
 
   <footer>
