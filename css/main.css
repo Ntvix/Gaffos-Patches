@@ -1,0 +1,147 @@
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* Header */
+header {
+  background-color: #1e1e2f;
+  padding: 20px 0;
+  color: white;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+header nav ul li a {
+  color: white;
+  font-weight: bold;
+}
+
+header nav ul li a:hover {
+  color: #c0c0c0;
+}
+
+/* Hero Banner */
+.hero {
+  height: 80vh;
+  background: url('https://cdn.discordapp.com/attachments/1336495084429901939/1361348738353856865/image1.png?ex=67fe6e4f&is=67fd1ccf&hm=4c38f18a3539d6d74359ac17d4fea4458da9f4f1e929114f78e26e3dfcb47cf2&') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.hero .overlay {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 40px;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+}
+
+/* About */
+.about {
+  background: white;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.about h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Sections */
+.sections {
+  padding: 60px 20px;
+  background: #f0f0f0;
+  text-align: center;
+}
+
+.section-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.btn {
+  padding: 12px 30px;
+  background: #e67e22;
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background: #cf711d;
+}
+
+/* Discord Section */
+.discord {
+  background: #1e1e2f;
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.discord-btn {
+  background: #7289da;
+  margin-top: 20px;
+}
+
+.discord-btn:hover {
+  background: #5b6eae;
+}
+
+/* Footer */
+footer {
+  background: #111;
+  color: #ccc;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
