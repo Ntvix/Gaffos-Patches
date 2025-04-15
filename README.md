@@ -4,7 +4,7 @@ Welcome to the official GitHub repository for **Gaffos Patches**, a clean and mo
 
 ## 🌐 Live Site
 
-[Visit the Website]([https://gaffospatches.com](https://ntvix.github.io/Gaffos-Patches/)) *(replace with actual URL if different)*
+[Visit the Website](https://ntvix.github.io/Gaffos-Patches/)
 
 ---
 
